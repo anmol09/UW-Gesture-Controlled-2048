@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="23"
+    density="xxhdpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="90459688448971"
+    token="-1166843982994052267"
+    verifier="COLD_SWAP_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="55" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="6" />
+    <task
+        name="verifier"
+        duration="0" />
+
+    <artifact
+        location="/Users/nicholasskupien/AndroidStudioProjects/Lab2_202_16_Nicholas/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
+        type="DEX" />
+
+    <build
+        timestamp="89922137806321"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/Users/nicholasskupien/AndroidStudioProjects/Lab2_202_16_Nicholas/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="90459688448971"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/nicholasskupien/AndroidStudioProjects/Lab2_202_16_Nicholas/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
+            type="DEX" />
+    </build>
+
+</instant-run>
